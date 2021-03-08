@@ -1,5 +1,11 @@
 [
   {
+    "role": "vagrant",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
     "role": "admin",
     "resource": "User",
     "action": "read:own",
@@ -9,6 +15,12 @@
     "role": "user",
     "resource": "User",
     "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "vagrant",
+    "resource": "User",
+    "action": "create:any",
     "attributes": "*"
   },
   {
@@ -24,6 +36,12 @@
     "attributes": "*"
   },
   {
+    "role": "vagrant",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
     "role": "admin",
     "resource": "User",
     "action": "update:any",
@@ -36,6 +54,12 @@
     "attributes": "*"
   },
   {
+    "role": "vagrant",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
     "role": "admin",
     "resource": "User",
     "action": "delete:any",
@@ -45,6 +69,12 @@
     "role": "user",
     "resource": "User",
     "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "vagrant",
+    "resource": "User",
+    "action": "read:any",
     "attributes": "*"
   },
   {
@@ -60,6 +90,102 @@
     "attributes": "*"
   },
   {
+    "role": "vagrant",
+    "resource": "Project",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Project",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Project",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "vagrant",
+    "resource": "Project",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Project",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Project",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "vagrant",
+    "resource": "Project",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Project",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Project",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "vagrant",
+    "resource": "Project",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Project",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Project",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "vagrant",
+    "resource": "Project",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Project",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Project",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "vagrant",
+    "resource": "Task",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
     "role": "admin",
     "resource": "Task",
     "action": "read:own",
@@ -69,6 +195,12 @@
     "role": "user",
     "resource": "Task",
     "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "vagrant",
+    "resource": "Task",
+    "action": "create:any",
     "attributes": "*"
   },
   {
@@ -84,6 +216,12 @@
     "attributes": "*"
   },
   {
+    "role": "vagrant",
+    "resource": "Task",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
     "role": "admin",
     "resource": "Task",
     "action": "update:any",
@@ -96,6 +234,12 @@
     "attributes": "*"
   },
   {
+    "role": "vagrant",
+    "resource": "Task",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
     "role": "admin",
     "resource": "Task",
     "action": "delete:any",
@@ -105,6 +249,12 @@
     "role": "user",
     "resource": "Task",
     "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "vagrant",
+    "resource": "Task",
+    "action": "read:any",
     "attributes": "*"
   },
   {
@@ -120,62 +270,92 @@
     "attributes": "*"
   },
   {
-    "role": "admin",
-    "resource": "Project",
-    "action": "read:own",
-    "attributes": "*"
-  },
-  {
-    "role": "user",
-    "resource": "Project",
+    "role": "vagrant",
+    "resource": "Customer",
     "action": "read:own",
     "attributes": "*"
   },
   {
     "role": "admin",
-    "resource": "Project",
+    "resource": "Customer",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Customer",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "vagrant",
+    "resource": "Customer",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Customer",
     "action": "create:any",
     "attributes": "*"
   },
   {
     "role": "user",
-    "resource": "Project",
+    "resource": "Customer",
     "action": "create:any",
     "attributes": "*"
   },
   {
-    "role": "admin",
-    "resource": "Project",
-    "action": "update:any",
-    "attributes": "*"
-  },
-  {
-    "role": "user",
-    "resource": "Project",
+    "role": "vagrant",
+    "resource": "Customer",
     "action": "update:any",
     "attributes": "*"
   },
   {
     "role": "admin",
-    "resource": "Project",
-    "action": "delete:any",
+    "resource": "Customer",
+    "action": "update:any",
     "attributes": "*"
   },
   {
     "role": "user",
-    "resource": "Project",
+    "resource": "Customer",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "vagrant",
+    "resource": "Customer",
     "action": "delete:any",
     "attributes": "*"
   },
   {
     "role": "admin",
-    "resource": "Project",
+    "resource": "Customer",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Customer",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "vagrant",
+    "resource": "Customer",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "admin",
+    "resource": "Customer",
     "action": "read:any",
     "attributes": "*"
   },
   {
     "role": "user",
-    "resource": "Project",
+    "resource": "Customer",
     "action": "read:any",
     "attributes": "*"
   }
