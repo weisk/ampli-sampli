@@ -2,7 +2,7 @@ import { UserWhereUniqueInput } from "../user/UserWhereUniqueInput";
 import { ProjectWhereUniqueInput } from "../project/ProjectWhereUniqueInput";
 
 export type Task = {
-  assignedTo: UserWhereUniqueInput | null;
+  assignedTo?: UserWhereUniqueInput | null;
   createdAt: Date;
   estimation: number | null;
   id: string;
